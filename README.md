@@ -1,4 +1,4 @@
-# 📡 AI-Enabled Structural Health Monitoring (SHM) using Digital Twins
+# 📡 AI-Enabled Structural Health Monitoring (SHM) using Piezoelectric Sensors
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
