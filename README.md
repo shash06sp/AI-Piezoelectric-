@@ -39,6 +39,7 @@ We implemented a **Support Vector Machine (SVM)** with a linear kernel to establ
 * **Result:** The SVM achieved a flawless **100% Detection Accuracy** on unseen test data, with zero false positives or false negatives.
 
 ![PCA Feature Space](pca_feature_space.PNG)
+
 *> **Figure 1:** PCA projection demonstrating clear linear separability between the augmented healthy baseline and cracked structural states.*
 
 ### Objective 2: Probabilistic Localization (Regression)
@@ -48,12 +49,14 @@ Unlike deterministic models that output a single spatial guess, we employed **Ga
 * **Innovation:** The GPR successfully outputs **95% Confidence Intervals**, providing vital Uncertainty Quantification (UQ) for engineering safety.
 
 ![GPR Localization](gpr_localization.PNG)
+
 *> **Figure 2:** GPR predictions vs. Actual crack locations, featuring 95% Confidence Intervals for Uncertainty Quantification.*
 
 ### Objective 3: Dynamic Health Monitoring Simulation
 To simulate real-world continuous monitoring, the model evaluates sequential time-series data, injecting dynamic environmental Gaussian white noise. The SVM outputs a continuous "Damage Probability" score.
 
 ![Dynamic Monitoring](dynamic_monitoring.PNG)
+
 *> **Figure 3:** Real-time health monitoring simulation tracking the transition from a healthy phase to a damaged phase, triggering an automated safety alarm.*
 
 ---
